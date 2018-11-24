@@ -9,7 +9,8 @@ public class DogFactory {
         }
         else if (criteria == "big") {
             return new Rottweiler();
-        } else if (criteria == "special") {
+        }
+        else if (criteria == "special") {
             return new SiberianHusky();
         }
             return null;
